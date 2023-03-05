@@ -1,4 +1,5 @@
 import { About } from '@/templates/About'
+import { Contact } from '@/templates/Contact'
 import { Main } from '@/templates/Main'
 import { Projects } from '@/templates/Projects'
 import { Services } from '@/templates/Services'
@@ -12,6 +13,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Services />
+      <Contact />
     </>
   )
 }
