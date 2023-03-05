@@ -62,9 +62,9 @@ export function About() {
         <Collapsible.Root
           open={isOpen}
           onOpenChange={setisOpen}
-          className="mt-16"
+          className="mt-16 xl:w-full"
         >
-          <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 mb-10">
+          <div className="grid lg:grid-cols-2 xl:grid-cols-3  justify-items-center gap-10 mb-10">
             <InterestItem
               title="Podcasts"
               icon={<Headphones size={40} className="text-rose-300" />}
