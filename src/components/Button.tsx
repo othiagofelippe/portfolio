@@ -2,7 +2,7 @@ import { clsx } from 'clsx'
 import { ReactNode } from 'react'
 
 interface ButtonProps {
-  backgroundColor: 'BLUE' | 'ORANGE' | 'PURPLE'
+  backgroundColor: 'BLUE' | 'ORANGE' | 'PURPLE' | 'TRANSPARENT'
   hasIcon?: boolean
   children: ReactNode
 }
@@ -20,6 +20,7 @@ export function Button({
           'bg-rose-400 hover:bg-rose-500': backgroundColor === 'ORANGE',
           'bg-blue-400 hover:bg-blue-500': backgroundColor === 'BLUE',
           'bg-github-400 hover:bg-github-500': backgroundColor === 'PURPLE',
+          'transparent hover:bg-rose-400': backgroundColor === 'TRANSPARENT',
           'flex items-center gap-2': hasIcon === true,
         },
       )}
