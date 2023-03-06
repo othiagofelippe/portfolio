@@ -1,3 +1,4 @@
+import { Footer } from '@/components/Footer'
 import { About } from '@/templates/About'
 import { Contact } from '@/templates/Contact'
 import { Main } from '@/templates/Main'
@@ -14,6 +15,7 @@ export default function Home() {
       <Projects />
       <Services />
       <Contact />
+      <Footer />
     </>
   )
 }
