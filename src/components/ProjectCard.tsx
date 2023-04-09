@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 import { ArrowRight } from 'phosphor-react'
 import { Button } from './Button'
-import photo from '../assets/photo.jpg'
+import Picture from '../assets/Picture.jpg'
 
 export function ProjectCard() {
   return (
     <div className="w-[22.5rem] h-[28.875rem] rounded-xl shadow-md">
       <div className="rounded-t-xl">
-        <Image src={photo} alt="" width={360} height={240} quality={100} />
+        <Image src={Picture} alt="" width={360} height={240} quality={100} />
       </div>
       <div className="bg-gray-700 p-5 rounded-b-xl">
         <p className="text-2xl text-gray-200 font-display">Netflix clone</p>
